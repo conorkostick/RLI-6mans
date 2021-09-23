@@ -1,11 +1,15 @@
+import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
 from os import listdir
  
-TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+TOKEN = "TOKEN HERE XXXXXXXXXXXXXXXXXXXXXXXXXXX"
 PREFIX = ">"
+
+intents = discord.Intents.default()
+intents.members = True
  
-bot = Bot(command_prefix=PREFIX)
+bot = Bot(command_prefix=PREFIX, intents=intents)
  
 @bot.event
 async def on_ready():
