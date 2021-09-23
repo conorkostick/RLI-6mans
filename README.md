@@ -1,3 +1,6 @@
+<h4>*This is the refactored version of the RLI 6mans Discord bot*</h4>
+<p>It works the exact same as the master version, unfortunately while it worked on my local PC, it did not work on the server I used to host the bot, and so I had to give up on this version to focus on other projects</p>
+
 <h2>RLI-6mans</h2>
 <h3>A discord bot for the RL Ireland server</h3>
 
