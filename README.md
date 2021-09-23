@@ -3,6 +3,8 @@
 
 <ul>
   <li>This bot takes a queue of 6 people and makes two teams of 3.</li>
+  <li>Bot will allow players to choose if they want random or captained teams</li>
+  <li>If captained teams picked, bot will pick captains based on leaderboard positions</li>
   <li>Players report who won, and the bot keeps track of this through txt files.</li>
   <li>This bot is intended to have multiple tiers going at once. (Casual, Championship, Premier, Elite).</li>
   <li>For the bot to work properly there must be txt files for each of the tiers in the same folder as the bot code itself.</li>
